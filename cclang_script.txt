@@ -1,0 +1,5 @@
+BOARD: 15 15
+CONTROLS: horizon = 1, set_speed = 2, GAME_MODE = 2
+PIECE: @j, @z = "0110011011111111"
+ACTION: changes()
+FUNCTION: def changes(){ set_speed = 9 horizon = 0 return }
